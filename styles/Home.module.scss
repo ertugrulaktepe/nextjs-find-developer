@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'MarkPro';
+    src: url('../public/fonts/markpro/MarkPro.ttf')format('truetype');
+    font-weight: 100;
+
+}
+
+.populerSearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 149px 9px 150px;
+    background-color: #6b79980d;
+    font-family: 'MarkPro-Medium';
+    font-weight: 200;
+    font-family: 'MarkPro-Medium';
+    overflow: hidden;
+
+    span {
+        color: #666768;
+        white-space: nowrap;
+        margin-right: 25px;
+    }
+}
+
+.main {
+    background: url('../public/static/images/bg/group-13@2x.png') no-repeat;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.referance {
+    display: flex;
+    margin-top: 23px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 27px;
+    width: 100%;
+    padding: 30px 9px 30px 18px;
+    border-radius: 20px;
+    background-color: #f7f6f6;
+}
+
+.jobPostings {
+    margin-top: 45px;
+    font-family: 'MarkPro';
+    font-style: normal;
+    font-weight: 100;
+    background: url('../public/static/images/bg/group-12@2x.png') no-repeat;
+    background-position: left;
+    background-size: 361px 304px;
+
+    span {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 17px;
+        color: #000000;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        gap: 90px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        width: 100%;
+
+        h5 {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 17px;
+            color: #666768;
+        }
+
+        span {
+            font-size: 16px;
+            color: #666768
+        }
+    }
+}
+
+.slideItem {
+    width: 90%;
+    object-fit: contain;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #666768;
+    font-family: 'MarkPro';
+    border-right: 1px solid #e9e9e9;
+
+    p,
+    span {
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+}
+
+.image {
+    margin-top: 10px;
+    width: 114px;
+    height: 40px;
+    padding: 10px;
+    object-fit: contain;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.slider {
+    font-family: 'MarkPro';
+    margin-bottom: 40px;
+
+    p {
+        font-size: 20px;
+        color: #666768;
+    }
+}
+
+.containerBg {
+    background: url('../public/static/images/bg/group-14@2x.png') no-repeat;
+    background-size: 263px 338px;
+}
+
+.sliderBorder {
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+}

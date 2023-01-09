@@ -1,0 +1,72 @@
+[
+  {
+    "image": "../../../static/images/referans/1-acibadem@2x.png",
+    "width": 136,
+    "alt": "Acıbadem"
+  },
+  {
+    "image": "../../../static/images/referans/2-akbank@2x.png",
+    "width": 136,
+    "alt": "Akbank"
+  },
+  {
+    "image": "../../../static/images/referans/3-akcansa@2x.png",
+    "width": 119,
+    "alt": "Akcansa"
+  },
+  {
+    "image": "../../../static/images/referans/4-akkim@2x.png",
+    "width": 136,
+    "alt": "Akkim"
+  },
+  {
+    "image": "../../../static/images/referans/5-akkok@2x.png",
+    "width": 136,
+    "alt": "Akkok"
+  },
+  {
+    "image": "../../../static/images/referans/7-aktif-bank@2x.png",
+    "width": 136,
+    "alt": "Aktif Bank"
+  },
+  {
+    "image": "../../../static/images/referans/8-allianz@2x.png",
+    "width": 136,
+    "alt": "Allianz"
+  },
+  {
+    "image": "../../../static/images/referans/9-anadolu-sigorta@2x.png",
+    "width": 136,
+    "alt": "Anadolu Sigorta"
+  },
+  {
+    "image": "../../../static/images/referans/10-anel-grup@2x.png",
+    "width": 136,
+    "alt": "Anel Grup"
+  },
+  {
+    "image": "../../../static/images/referans/arc-elik@2x.png",
+    "width": 136,
+    "alt": "Arçelik"
+  },
+  {
+    "image": "../../../static/images/referans/bsh@2x.png",
+    "width": 136,
+    "alt": "Bsh"
+  },
+  {
+    "image": "../../../static/images/referans/bezmialem@2x.png",
+    "width": 136,
+    "alt": "Bezmialem"
+  },
+  {
+    "image": "../../../static/images/referans/ronesans-holding@2x.png",
+    "width": 136,
+    "alt": "Ronesans Holding"
+  },
+  {
+    "image": "../../../static/images/referans/tav@2x.png",
+    "width": 119,
+    "alt": "Tav"
+  }
+]

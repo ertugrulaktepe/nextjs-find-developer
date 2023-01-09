@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'MarkPro';
+    src: url('../../../public/fonts/markpro/MarkPro-ExtraLight.otf');
+    font-weight: 100;
+}
+
+.footer {
+    background-color: #626160;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 30px;
+    font-family: 'MarkPro';
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    span {
+        font-size: 14px;
+
+        &::after {
+            content: "|";
+            margin: 0 10px;
+        }
+    }
+
+}
+
+.leftContent {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    span {
+        font-size: 14px;
+
+        &::after {
+            content: "|";
+            margin: 0 10px;
+        }
+    }
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+
+    p {
+        font-size: 12px;
+        color: #fff;
+        letter-spacing: 0;
+        width: 450px;
+    }
+}

@@ -1,0 +1,278 @@
+$color: #4361ee;
+$color-secondary: #6b7998;
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('../../../public/fonts/nunito/Nunito-Bold.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url('../../../public/fonts/nunito/Nunito-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito-ExtraBold';
+    src: url('../../../public/fonts/nunito/Nunito-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('../../../public/fonts/nunito/Nunito-Light.ttf');
+}
+
+
+
+.main {
+    display: flex;
+    margin-left: 150px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+
+    width: 100%;
+    flex: 1;
+    height: fit-content;
+    margin-top: 25px;
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+    .container {
+        margin: 0 auto;
+        max-width: 750px;
+
+        @media screen and (max-width: 768px) {
+            max-width: 100%;
+            padding: 0 20px;
+        }
+
+        @media screen and (max-width: 1000px) {
+            max-width: 100%;
+            padding: 0 20px;
+        }
+
+    }
+
+}
+
+.contentHeader {
+
+    font-size: 32px;
+    color: #5b6987;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.edit {
+    color: $color-secondary;
+    font-size: 16px;
+    font-family: 'Nunito-Bold', sans-serif;
+}
+
+.subTitle {
+    color: $color;
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+.contentBody {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentText {
+    font-size: 16px;
+    color: $color-secondary;
+    font-family: 'Nunito-Regular', sans-serif;
+    margin-bottom: 15px;
+}
+
+.contentHeaderCustom {
+    font-size: 24px;
+    color: $color-secondary;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.contentTitle {
+    font-size: 24px;
+    color: $color;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contentSubTitle {
+    font-size: 18px;
+    margin-top: 5px;
+    color: $color;
+    font-family: 'Nunito-Regular', sans-serif;
+}
+
+.address {
+    font-size: 16px;
+    color: $color-secondary;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contentCustomSubTitle {
+    font-size: 18px;
+    color: $color-secondary;
+    font-family: 'Nunito', sans-serif;
+}
+
+.abilities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    width: 50%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: $color-secondary;
+    font-family: 'Nunito', sans-serif;
+}
+
+.abilitiesBody {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header {
+    background: url('../../../public/static/images/bg/bg@2x.png') no-repeat;
+    background-size: cover;
+    background-position-y: 12%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 210px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.subHeader {
+    background-color: #f5f7ff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 226px;
+
+    @media screen and (max-width: 500px) {
+        padding: 12pz 211px;
+    }
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .searchBarInput {
+        position: relative;
+
+
+        .searchBar {
+            margin: 0 15px 10px 0;
+            padding: 20px 498px 20px 20px;
+            border-radius: 28px;
+            background-color: #fff;
+            border: none;
+
+            @media screen and (max-width: 768px) {
+                padding: 20px 300px 20px 20px;
+            }
+
+            @media screen and (max-width: 500px) {
+                padding: 20px 100px 20px 20px;
+            }
+
+
+
+            &::placeholder {
+                padding-left: 25px;
+                align-items: center;
+
+                text-align: center;
+            }
+        }
+
+        .InputContent {
+            position: absolute;
+            left: 10px;
+            top: 18px;
+            padding: 10x;
+            display: flex;
+            flex-direction: row;
+        }
+
+
+    }
+
+    .searchBarButtons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 0 10px 15px;
+            padding: 7px 50px 15px;
+            border-radius: 28px;
+            border: 1px solid #4361ee;
+            background-color: transparent
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.bg {
+    background: url('../../../public/static/images/bg/group-13@2x.png') no-repeat;
+    background-size: 263px 338px;
+    background-position-y: -11%;
+}
+
+.bgBottom {
+    background: url('../../../public/static/images/bg/group-12@2x.png') no-repeat;
+    background-size: 410px 368px;
+    background-position: bottom;
+    background-position-x: 0;
+
+}

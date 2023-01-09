@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M13.333 7.313V2H5c-.554 0-1 .418-1 .938v18.125c0 .519.446.937 1 .937h14c.554 0 1-.418 1-.938V8.25h-5.667c-.55 0-1-.422-1-.938zM20 6.761V7h-5.333V2h.254c.267 0 .52.098.708.273l4.08 3.829a.906.906 0 0 1 .291.66z" id="p2anh0ioda"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h24v24H0z"/>
+        <use fill="#808285" fill-rule="nonzero" xlink:href="#p2anh0ioda"/>
+    </g>
+</svg>

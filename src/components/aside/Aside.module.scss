@@ -1,0 +1,92 @@
+$color-secondary: #6b7998;
+$color-primary: #4361ee;
+
+.profilePhoto {
+    width: 249px;
+    height: 249px;
+    border-radius: 12px;
+    object-fit: cover;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #4361ee;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(107, 121, 152, 0.3);
+
+    .userName {
+        color: $color-primary;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+
+    }
+
+    .userJob {
+        color: $color-secondary;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        margin-top: 2px;
+        font-weight: 200;
+    }
+
+    .link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        margin-top: 10px;
+
+        span {
+            color: #0d1822;
+            font-size: 12px;
+        }
+
+    }
+
+}
+
+.social {
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(107, 121, 152, 0.3);
+
+    .socialHeader {
+        color: $color-primary;
+        font-size: 18px;
+    }
+
+    .socialLink {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+}
+
+.updateProfile {
+    color: $color-primary;
+    margin-top: 10px;
+}
+
+.document {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .file {
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+        align-items: center;
+        color: #6b7998;
+        font-size: 18px;
+
+        span {
+            flex: 1
+        }
+    }
+
+}

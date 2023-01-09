@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'MarkPro-Medium';
+    src: url('../../../public/fonts/markpro/MarkPro-Medium.ttf')format('truetype');
+}
+
+$font: 'MarkPro-Medium';
+
+.header {
+
+    background: url('../../../public/static/images/bg/bg@2x.png') no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 20px;
+    background-position: center center;
+    object-fit: contain;
+
+
+
+    .loginButtons {
+        width: 100%;
+        padding: 25px 0 0 0;
+        display: flex;
+
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+
+        .logo {
+            margin: 123px 0px 20px 12px;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logoText {
+            margin: 20px 120px 48px 135px;
+            width: fit-content
+        }
+
+        .search {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
+
+            .searchBarInput {
+                position: relative;
+
+
+                .searchBar {
+                    margin: 0 15px 10px 0;
+                    padding: 20px 198px 20px 20px;
+                    border-radius: 28px;
+                    background-color: #fff;
+                    border: none;
+
+                    &::placeholder {
+                        padding-left: 25px;
+                        align-items: center;
+
+                        text-align: center;
+                    }
+                }
+
+                .InputContent {
+                    position: absolute;
+                    left: 10px;
+                    top: 18px;
+                    padding: 10x;
+                    display: flex;
+                    flex-direction: row;
+                }
+
+
+            }
+
+            .searchBarButtons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                button {
+                    margin: 0 0 10px 15px;
+                    padding: 16px 50px 15px;
+                    border-radius: 28px;
+                    border: none;
+                    background-color: #fff;
+                }
+
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.logoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.headerLogo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.headerText {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
